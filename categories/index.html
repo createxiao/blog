@@ -1,45 +1,205 @@
-extends ./_partial/layout.pug
-block content
-  include ./_partial/post_header.pug
-  .article-content(style='max-width:'+ theme.content_width +'px')
-    if page.photos && page.photos.length
-      div
-        each photo in page.photos
-          a.article-gallery-img.fancybox(href=photo)
-            img(src=photo)
-    | !{page.content}
-  .article-meta(style='max-width:'+ theme.content_width +'px')
-    if page.tags && page.tags.length
-      .tags
-        i.icon.icon-tag
-        | !{list_tags(page.tags)}
-    if page.tags && page.categories.length
-      .categories
-        i.icon.icon-category
-        | !{list_categories(page.categories)}
-  if theme.duoshuo.enable
-    .article-comment(style='max-width:'+ theme.content_width +'px')
-      #ds-thread.ds-thread(data-thread-key=page._id, data-title=page.title, data-url=config.url + url_for(page.path), site-name=theme.duoshuo.siteName)
-      script.
-        var siteName = document.getElementById('ds-thread').getAttribute('site-name');
-        var duoshuoQuery = {short_name: siteName};
-        (function() {
-          var ds = document.createElement('script');
-          ds.type = 'text/javascript';ds.async = true;
-          ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-          ds.charset = 'UTF-8';
-          (document.getElementsByTagName('head')[0] 
-          || document.getElementsByTagName('body')[0]).appendChild(ds);
-        })();
-  ul.navication
-    li.home
-      a(href="/")
-        i.icon.icon-home
-    if page.prev && page.prev.path
-      li
-        a(href=url_for(page.prev.path))
-          i.icon.icon-arror-left
-    if page.next && page.next.path
-      li
-        a(href=url_for(page.next.path))
-          i.icon.icon-arror-right
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>categories | xiao|个人博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="categories">
+<meta property="og:url" content="https://createxiao.github.io/categories/index.html">
+<meta property="og:site_name" content="xiao|个人博客">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-08-31T06:31:32.571Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="categories">
+  
+    <link rel="alternate" href="/blog/atom.xml" title="xiao|个人博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/blog/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/blog/" id="logo">xiao|个人博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/blog/">Home</a>
+        
+          <a class="main-nav-link" href="/blog/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/blog/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://createxiao.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/categories/index.html" class="article-date">
+  <time datetime="2019-08-31T06:31:07.000Z" itemprop="datePublished">2019-08-31</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      categories
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://createxiao.github.io/categories/index.html" data-id="ck2xel9bd00010fsi11ie4zlk" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/blog/categories/随记/">随记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/失业/">失业</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/感想/">感想</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/游玩/">游玩</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/美食/">美食</a></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/裁员/">裁员</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/blog/tags/失业/" style="font-size: 10px;">失业</a> <a href="/blog/tags/感想/" style="font-size: 10px;">感想</a> <a href="/blog/tags/游玩/" style="font-size: 10px;">游玩</a> <a href="/blog/tags/美食/" style="font-size: 10px;">美食</a> <a href="/blog/tags/裁员/" style="font-size: 10px;">裁员</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2019/10/">October 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2019/08/">August 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/blog/2019/11/13/demo/">每天敲一点</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2019/10/30/巴陵之游/">洞庭天下水 岳阳天下楼</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2019/08/31/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/blog/2019/08/31/我的第一次失业感想/">我的第一次失业感想</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 xiao<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css">
+  <script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
