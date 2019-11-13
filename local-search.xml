@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>每天敲一点</title>
+    <link href="undefined2019/11/13/demo/"/>
+    <url>2019/11/13/demo/</url>
+    
+    <content type="html"><![CDATA[<h1 id="什么都还没开始，先换个主题吧"><a href="#什么都还没开始，先换个主题吧" class="headerlink" title="什么都还没开始，先换个主题吧"></a>什么都还没开始，先换个主题吧</h1>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>洞庭天下水 岳阳天下楼</title>
+    <link href="undefined2019/10/30/%E5%B7%B4%E9%99%B5%E4%B9%8B%E6%B8%B8/"/>
+    <url>2019/10/30/%E5%B7%B4%E9%99%B5%E4%B9%8B%E6%B8%B8/</url>
+    
+    <content type="html"><![CDATA[<p>岳阳，古称“巴陵”、又名“岳州”，湖南省地级市。第二大经济体，长江中游城市群重要成员，湖南省域副中心城市。建城始于公元前505年，是一座有着2500多年悠久历史的文化名城。位于江南洞庭湖之滨，依长江、纳三湘四水，江湖交汇，不仅是中国南北东西交通要道、国务院首批沿江开放之重地，且是长江中游重要的区域中心城市、湖南首位门户城市。<br><img src="https://baike.baidu.com/pic/%E5%B2%B3%E9%98%B3/168230/0/a686c9177f3e67093549c5a737c79f3df8dc5519?fr=lemma&ct=single#aid=0&pic=a686c9177f3e67093549c5a737c79f3df8dc5519" srcset="undefined" alt="图片描述"></p><p>岳阳交通极为便利，境内长江、京广铁路、蒙华铁路（在建）、京广高铁、京港澳高速公路、杭瑞高速公路等国家交通主动脉在市区交织成网。2015年12月10日新开建的岳阳三荷机场，也促进着该市形成愈加明显的“水陆空”三位一体综合性大交通脉络。岳阳综合经济实力位居中部六省大中城市前列，2016年地区生产总值3123亿元、社会零售品消费总额1142.88亿元、财政收入330.8亿元，稳居全省第二，仅次于省会长沙。<br>岳阳是湖南唯一的国际贸易口岸城市，也是中国著名的港口城市。岳阳港是长江沿岸的中转型国际集装箱大港、国务院批准的启运港，并与港澳台、日韩、东盟、澳大利亚等地区、国家有定期海运直达航线和远洋接力航线，设有国家综合保税区。<br>岳阳人文深厚、风景秀丽，集名山、名水、名楼、名人、名文于一体，是中华文化重要的始源地之一，亦是海内外闻名的旅游胜地。2014年岳阳获评中国最具幸福感和最具文化软实力之城，是全国唯一获取两项殊荣的地级市。2015年，岳阳荣膺“中国十大活力休闲城市”。2017年岳阳连续保留“全国文明城市”荣誉。</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>游玩</tag>
+      
+      <tag>美食</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="undefined2019/08/31/hello-world/"/>
+    <url>2019/08/31/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我的第一次失业感想</title>
+    <link href="undefined2019/08/31/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%A4%B1%E4%B8%9A%E6%84%9F%E6%83%B3/"/>
+    <url>2019/08/31/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%A4%B1%E4%B8%9A%E6%84%9F%E6%83%B3/</url>
+    
+    <content type="html"><![CDATA[<p>这是一段文章引入描述</p><a id="more"></a><h1 id="h1样式"><a href="#h1样式" class="headerlink" title="h1样式"></a>h1样式</h1><h2 id="h2样式"><a href="#h2样式" class="headerlink" title="h2样式"></a>h2样式</h2><h3 id="h3样式"><a href="#h3样式" class="headerlink" title="h3样式"></a>h3样式</h3><h4 id="h4样式"><a href="#h4样式" class="headerlink" title="h4样式"></a>h4样式</h4><h5 id="h5样式"><a href="#h5样式" class="headerlink" title="h5样式"></a>h5样式</h5><p><img src="http://pic1.win4000.com/wallpaper/c/53cdd1f7c1f21.jpg" srcset="undefined" alt="图片描述">  </p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">  system.out.println(<span class="string">"cc"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>这是加粗的文字</strong><br><em>这是倾斜的文字</em>`<br><strong><em>这是斜体加粗的文字</em></strong><br><del>这是加删除线的文字</del></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*`</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>随记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>失业</tag>
+      
+      <tag>裁员</tag>
+      
+      <tag>感想</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
